@@ -4,6 +4,6 @@ class Student {
     char name;
   
   public:
-   void setassignDetails(int Id,char Sname); //method declaration
-   int display(int Id,char Sname); //method declaration
+   void assignDetails(int Id,char Sname); //method declaration
+   void display(); //method declaration
 };
